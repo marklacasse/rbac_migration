@@ -31,8 +31,7 @@ A comprehensive Python toolkit for migrating from Contrast Security's EAC (Exist
 
 1. **Clone and setup the project:**
    ```bash
-   git clone [repository_url]
-   cd ps-RBAC-generic-main
+   git clone https://github.com/marklacasse/rbac_migration.git
    python3 -m venv .venv
    source .venv/bin/activate
    pip install -r requirements.txt
