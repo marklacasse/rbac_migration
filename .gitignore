@@ -1,0 +1,46 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+
+# Logs directory (but keep the directory structure)
+logs/*.txt
+logs/*.log
+
+# Results/Logs directory (but keep the directory structure)  
+Results/*.txt
+Results/*.log
+Results/*.csv
+!Results/.gitkeep
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+rbac_logs_*.txt
+failures_create_rg*.csv
+
+# Old config files (no longer needed)
+*.conf

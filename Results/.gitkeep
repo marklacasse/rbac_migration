@@ -1,0 +1,2 @@
+# This file ensures the Results directory is preserved in git
+# Output files are gitignored but the directory structure is maintained
